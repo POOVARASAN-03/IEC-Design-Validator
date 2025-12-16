@@ -19,12 +19,12 @@ export class CableDesignDto {
   conductor_class: string;
 
   @IsNumber()
-  csa: number; // Cross Sectional Area (mm²)
+  csa: number; 
 
   @IsString()
   @IsNotEmpty()
   insulation_material: string;
 
   @IsNumber()
-  insulation_thickness: number; // mm
+  insulation_thickness: number; 
 }
